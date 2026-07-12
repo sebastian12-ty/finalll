@@ -1,3 +1,4 @@
+# --- Web ---
 flask==3.0.0
 flask-sqlalchemy==3.1.1
 flask-login==0.6.3
@@ -6,18 +7,19 @@ werkzeug==3.0.1
 gunicorn==21.2.0
 psycopg2-binary==2.9.9
 
-# IA Facial
+# --- IA Facial ---
 opencv-python==4.9.0.80
 deepface==0.0.92
 tf-keras==2.16.0
 
-# NLP
+# --- NLP ---
 transformers==4.40.0
-torch>=2.1.0,<2.3.0
+torch==2.1.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 nltk==3.8.1
 spacy==3.7.4
 
-# Utilidades
+# --- Utilidades ---
 qrcode[pil]==7.4.2
 pillow==10.2.0
 pandas==2.2.1
