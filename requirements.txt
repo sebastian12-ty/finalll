@@ -14,7 +14,7 @@ tf-keras==2.16.0
 
 # --- NLP ---
 transformers==4.40.0
-torch==2.1.0
+torch==2.9.1
 nltk==3.8.1
 spacy==3.7.4
 
@@ -24,6 +24,3 @@ pillow==10.2.0
 pandas==2.2.1
 numpy==1.26.4
 scikit-learn==1.4.0
-
-# --- Índice adicional para PyTorch CPU ---
---extra-index-url https://download.pytorch.org/whl/cpu
