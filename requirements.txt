@@ -24,3 +24,5 @@ pillow==10.2.0
 pandas==2.2.1
 numpy==1.26.4
 scikit-learn==1.4.0
+# --- Streamlit ---
+streamlit==1.36.0
