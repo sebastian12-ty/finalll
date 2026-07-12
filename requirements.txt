@@ -5,16 +5,18 @@ flask-login==0.6.3
 flask-migrate==4.0.5
 werkzeug==3.0.1
 gunicorn==21.2.0
-psycopg2-binary==2.9.9
+psycopg2-binary==2.9.6
 
 # --- IA Facial ---
 opencv-python==4.9.0.80
 deepface==0.0.92
-tf-keras==2.16.0
+tensorflow==2.15.1
+tf-keras==2.15.0
 
 # --- NLP ---
 transformers==4.40.0
-torch==2.9.0
+torch==2.3.0
+--extra-index-url https://download.pytorch.org/whl/cpu
 nltk==3.8.1
 spacy==3.7.4
 
@@ -24,5 +26,6 @@ pillow==10.2.0
 pandas==2.2.1
 numpy==1.26.4
 scikit-learn==1.4.0
+
 # --- Streamlit ---
 streamlit==1.36.0
