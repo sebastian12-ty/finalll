@@ -5,13 +5,13 @@ flask-login
 flask-migrate
 werkzeug
 gunicorn
-psycopg2-binary
+psycopg2-binary==2.9.6
 
 # --- IA Facial ---
 opencv-python
-deepface
-tensorflow
-tf-keras
+deepface==0.0.92
+tensorflow==2.14.0
+tf-keras==2.14.0
 
 # --- NLP ---
 transformers
